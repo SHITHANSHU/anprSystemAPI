@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="anprSystem:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d6eef137-61e5-46e0-94b0-cf8420f76043" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/anprSystem_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/dropwizard/numberResourceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/dropwizard/numberResourceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/dropwizard/numberplateConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/dropwizard/numberplateConfiguration.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -76,16 +87,20 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="179" key="#Project_Structure/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585052511920" />
-    <state x="411" y="145" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583411378451">
+    <state x="411" y="145" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588860693994">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="411" y="145" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1583411378451" />
+    <state x="411" y="145" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1588860693994" />
     <state x="0" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1588662516676">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1588662516676" />
     <state x="1920" y="156" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585146019683" />
     <state x="0" y="102" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1583412882550" />
+    <state x="370" y="125" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588861049488">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="370" y="125" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1588861049488" />
     <state x="360" y="12" key="#numberplateService" timestamp="1581939219619">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -147,11 +162,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="316" y="41" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1581940910968" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1588858670569">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1588861076515">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1588858670569" />
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582049191367" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588861076515" />
     <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1588759415097">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -165,15 +180,16 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="383" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1588518877892" />
-    <state x="2536" y="240" key="run.anything.popup" timestamp="1584960580617">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="411" y="157" key="run.anything.popup" timestamp="1588861032367">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="2536" y="240" key="run.anything.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584960580617" />
-    <state x="303" y="1" width="672" height="679" key="search.everywhere.popup" timestamp="1588617857823">
+    <state x="411" y="157" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1588861032367" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1588861034029">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="679" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1588617857823" />
     <state x="2375" y="2" width="1008" height="1037" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585051952143" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1581939697396" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1588861034029" />
   </component>
 </project>

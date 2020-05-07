@@ -1,0 +1,1 @@
+web    java $JAVA_OPTS -Ddw.http.port=8085 -Ddw.http.adminPort=8081 -jar out/artifacts/anprSystem_jar/anprSystem.jar server input.yml
