@@ -10,6 +10,11 @@ database:
   password: 543421d2ebdc0f6fdc8f98c984eeac3de9c521f91db9894d25715de61c92e2cb
 
   url: jdbc:postgresql://ec2-52-71-231-180.compute-1.amazonaws.com/d5o941vpmh268q
+#  driverClass: org.postgresql.Driver
+#  user: postgres
+#  password: root
+#
+#  url: jdbc:postgresql://localhost/postgres
 
 
   properties:
