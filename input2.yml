@@ -1,0 +1,55 @@
+# Database settings.
+database:
+
+
+  driverClass: org.postgresql.Driver
+  user: postgres
+  password: root
+
+  url: jdbc:postgresql://localhost/postgres
+
+  properties:
+    charSet: UTF-8
+
+  maxWaitForConnection: 1s
+
+  validationQuery: "/* MyApplication Health Check */ select 1"
+  minSize: 8
+
+  maxSize: 32
+  checkConnectionWhileIdle: false
+
+  evictionInterval: 10s
+
+  minIdleTime: 1 minute
+
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 8085
+
+  adminConnectors:
+    - type: http
+      port: 8081
+
+logging:
+  level: DEBUG
+
+  appenders:
+    - type: console
+      threshold: INFO
+      target: stderr
+      logFormat: "%-5level [%thread][%logger{0}]: %message%n"
+
+    - type: file
+      threshold: INFO
+      currentLogFilename: ./logs/example.log
+      archivedLogFilenamePattern: ./logs/myapp-%d.log.gz
+      archivedFileCount: 5
+
+    - type: file
+      threshold: DEBUG
+      currentLogFilename: ./logs/debug.log
+      archivedLogFilenamePattern: ./logs/debug-%d{yyyy-MM-dd-hh}.log.gz
+      archivedFileCount: 6

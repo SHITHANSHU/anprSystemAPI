@@ -1,0 +1,59 @@
+# Database settings.
+database:
+#  driverClass: org.postgresql.Driver
+#  user: rmdtkisdjhrygn
+#  password: 543421d2ebdc0f6fdc8f98c984eeac3de9c521f91db9894d25715de61c92e2cb
+#
+#  url: jdbc:postgresql://ec2-52-71-231-180.compute-1.amazonaws.com/d5o941vpmh268q
+  driverClass: org.postgresql.Driver
+  user: rmdtkisdjhrygn
+  password: 543421d2ebdc0f6fdc8f98c984eeac3de9c521f91db9894d25715de61c92e2cb
+
+  url: jdbc:postgresql://ec2-52-71-231-180.compute-1.amazonaws.com/d5o941vpmh268q
+
+
+  properties:
+    charSet: UTF-8
+
+  maxWaitForConnection: 1s
+
+  validationQuery: "/* MyApplication Health Check */ select 1"
+  minSize: 8
+
+  maxSize: 32
+  checkConnectionWhileIdle: false
+
+  evictionInterval: 10s
+
+  minIdleTime: 1 minute
+
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 8085
+
+  adminConnectors:
+    - type: http
+      port: 8081
+
+logging:
+  level: DEBUG
+
+  appenders:
+    - type: console
+      threshold: INFO
+      target: stderr
+      logFormat: "%-5level [%thread][%logger{0}]: %message%n"
+
+    - type: file
+      threshold: INFO
+      currentLogFilename: ./logs/example.log
+      archivedLogFilenamePattern: ./logs/myapp-%d.log.gz
+      archivedFileCount: 5
+
+    - type: file
+      threshold: DEBUG
+      currentLogFilename: ./logs/debug.log
+      archivedLogFilenamePattern: ./logs/debug-%d{yyyy-MM-dd-hh}.log.gz
+      archivedFileCount: 6

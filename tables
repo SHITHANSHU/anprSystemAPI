@@ -1,0 +1,9 @@
+CREATE TABLE `session` (
+  `access_token` varchar(23) NOT NULL,
+  `username` varchar(100) NOT NULL,
+  `created` datetime NOT NULL,
+  PRIMARY KEY (`access_token`),
+  KEY `fk_session_user` (`username`),
+  CONSTRAINT `fk_session_user` FOREIGN KEY (`username`) REFERENCES `user` (`username`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
